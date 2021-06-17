@@ -1,9 +1,16 @@
+# Overview
+##### Objective:
+* Generate a network consisting of 16 nodes running simultaneously where one node can at maximun know only three other nodes and disseminate broadcast message using gossip protocol. 
+
+##### Methodology: 
+* Each node has two API methods `submit_message` and `get message`. They can be viewed in `Gossip.py`
+* UDP for communication
+* Every node will receive the message, a node transmits using gossip dissemination.
 # Instructions
 
 ### Step 1: Start the Gossip Nodes
 #TODO(Koushikg): dockerize nodes so it is easier to setup env
-* start nodes separately in each terminal
-* example: 
+* start nodes separately in each terminal 
 
 ```shell
 python Gossip_node_7000.py
