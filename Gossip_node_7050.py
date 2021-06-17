@@ -1,9 +1,10 @@
-from Gossip import GossipNode
+# import the Gossip_Main class
+from Gossip import Gossip_Main
 
-# port for this node
+# Node's port
 port = 7050
-# ports for the nodes connected to this node
+# Connected ports/nodes
 # connected_nodes = [7040, 7060]
-connected_nodes = [7040, 7070, 7080]
+nodes_connected = [7040, 7070, 7080]
 
-node = GossipNode(port, connected_nodes)
+node = Gossip_Main(port, nodes_connected)
