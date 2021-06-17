@@ -9,6 +9,7 @@
 
 
 * Figure of gossip dissemination shown below
+
 ![image](Gossip_Protocol.jpeg)
 
 
