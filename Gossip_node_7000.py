@@ -2,8 +2,8 @@
 from Gossip import GossipNode
 
 # port for this node
-port = 5000
+port = 7000
 # ports for the nodes connected to this node
-connected_nodes = [5010, 5020]
-
+# connected_nodes = [7010, 7020]
+connected_nodes = [7010, 7020]
 node = GossipNode(port, connected_nodes)
