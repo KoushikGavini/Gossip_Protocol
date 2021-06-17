@@ -6,6 +6,12 @@
 * Each node has two API methods `submit_message` and `get message`. They can be viewed in `Gossip.py`
 * UDP for communication
 * Every node will receive the message, a node transmits using gossip dissemination.
+
+
+* Figure of gossip dissemination shown below
+![image](Gossip_Protocol.jpeg)
+
+
 # Instructions
 
 ### Step 1: Start the Gossip Nodes
