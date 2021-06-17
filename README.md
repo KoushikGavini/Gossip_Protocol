@@ -17,3 +17,14 @@ Enter a message to send:
 
 hello from 7000
 ```
+# Resources used
+
+* https://stackoverflow.com/questions/31121906/how-to-guarantee-that-all-nodes-get-infected-in-gossip-based-protocols
+
+* https://signalprocessingsociety.org/CAMSAP2013/papers/1569808853.pdf
+
+* https://www.gsd.inesc-id.pt/~ler/reports/LPR_GossipBasedBroadcast.pdf
+
+* https://codereview.stackexchange.com/questions/95671/gossip-algorithm-in-distributed-systems
+
+

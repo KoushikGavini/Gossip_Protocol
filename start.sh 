@@ -1,7 +1,0 @@
-#!/bin/sh
-
-echo "Starting Gossip Nodes"
-python Gossip_node_7000.py  
-python Gossip_node_7010.py  
-python Gossip_node_7020.py  
-python Gossip_node_7030.py  
